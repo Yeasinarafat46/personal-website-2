@@ -1,0 +1,110 @@
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+.header-banner{
+    padding-top: 50px;
+}
+.name-highlight{
+    color: rgba(219, 63, 115,0.835);
+    font-family: 'Black Han Sans',sans-serif;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.header{
+    background-image: url("images/header-bg.png");
+    background-size: 100%;
+}
+section{
+    height: 800px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: rgba(219, 63, 115,0.835);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.biography{
+    background-image: url("images/biography-bg.png");
+    background-size: 700;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+}
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+}
+.my-latest{
+    height: 20%;
+    width: 25%;
+    float: left;
+    margin-left: 1%;
+    border-image: 2%;
+}
+h4{
+    text-align: center;
+    font-size: 25%;
+}
+h5{
+    text-align: center;
+    font-size: 22%;
+}
+.footer{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    padding-bottom: 25px;
+    padding-top: 30px;
+}
+.footer div h3{
+    font-size: 25px;
+}
+.footer div h4{
+    font-size: 23px;
+}
+.footer div h5{
+    font-size: 23px;
+}
+.half-width img{
+    width: 100%;
+}
+.work-area{
+    display: flex;
+    justify-content: space-around;
+}
+.my-latest img{
+    width: 98%;
+    box-shadow: 5px 5px 10px lightblue;
+}
+
+.right-side{
+    padding-bottom: 20px;
+    padding-top: 15%;
+}
+.last-work{
+    text-align: center;
+}
+.last-footer p{
+    text-align: center;
+    background-color: rgba(219, 63, 115,0.835);
+    width: 40%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 25px 0;
+}
+footer p{
+    text-align: center;
+}
